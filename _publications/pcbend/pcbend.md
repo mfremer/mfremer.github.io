@@ -25,6 +25,8 @@ Our technique generates PCB blueprints in a completely automated way. After bein
 
 
 # Resources
-- [Article]({{ site.baseurl }}{% link /assets/pdf/pcbend/article.pdf %})
+
+[//]: # (- [Article]({{ site.baseurl }}{% link /assets/pdf/pcbend/article.pdf %}))
+- [Article](https://mybox.inria.fr/f/e482a7e9529646f6aa97/?dl=1)
 - [Video](https://youtu.be/g8UX-KifGmM)
 - [Code and data](https://github.com/mfremer/pcbend)
