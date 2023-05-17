@@ -25,6 +25,8 @@ Our approach optimizes the PCB geometry for folding, and then jointly optimizes 
 
 Our technique generates PCB blueprints in a completely automated way. After being fabricated by a PCB manufacturing service, the boards are bent and glued by the user onto the 3D printed support. We demonstrate our technique on a range of physical models and virtual examples, creating intricate surface light patterns from hundreds of LEDs.
 
+Download article [here]({{ site.baseurl }}{% link /assets/pdf/pcbend/article.pdf %}).
+
 # Supplemental material
 - [Video](https://youtu.be/g8UX-KifGmM)
 - [Code and data](https://github.com/mfremer/pcbend)
