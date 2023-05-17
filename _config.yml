@@ -33,8 +33,13 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - publications/summary.md
+  - publications.md
   - about.md
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.
