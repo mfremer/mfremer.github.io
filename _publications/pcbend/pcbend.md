@@ -40,7 +40,6 @@ We thank the reviewers for the valuable feedback. We also thank the Miba Machine
 <img src="/assets/img/flag_eu.jpg" alt="EU flag" height="100"/>
 <img src="/assets/img/logo_erc.jpg" alt="ERC logo" height="100"/>
 
-
 # Resources
 - [Article](https://manas-avi.github.io/publications/2023/PCBend/FoldableElectronics-2023-camera-ready.pdf)
 - [Video](https://youtu.be/nJspqdpyWq4)
