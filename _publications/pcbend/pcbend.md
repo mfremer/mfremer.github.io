@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards"
-author: "Marco Freire*, Manas Bhargava*, Camille Schreck, Pierre-Alexandre Hugron, Bernd Bickel, Sylvain Lefebvre (*Joint first authors)"
+author: "M. Freire*, M. Bhargava*, C. Schreck, P.-A. Hugron, B. Bickel, S. Lefebvre (*Joint first authors)"
 conference: "SIGGRAPH 2023"
 teaser: "/assets/img/pcbend/teaser.png"
+image: "/assets/img/pcbend/reprimg.jpg"
 pdf: "/assets/pdf/pcbend/article.pdf"
 ---
 
@@ -23,8 +24,24 @@ Our approach optimizes the PCB geometry for folding, and then jointly optimizes 
 
 Our technique generates PCB blueprints in a completely automated way. After being fabricated by a PCB manufacturing service, the boards are bent and glued by the user onto the 3D printed support. We demonstrate our technique on a range of physical models and virtual examples, creating intricate surface light patterns from hundreds of LEDs.
 
+# Citation
+    @inproceedings{FreireAndBhargava2023PCBend,
+      author = {Marco Freire and Manas Bhargava and Camille Schreck and Pierre-Alexandre Hugron and Bernd Bickel and Sylvain Lefebvre},
+      title = {PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards},
+      journal = {ACM Transactions on Graphics (Proc. SIGGRAPH)},
+      year = {2023},
+      volume = {42},
+      number = {}
+    }
+
+# Acknowledgements
+We thank the reviewers for the valuable feedback. We also thank the Miba Machine Shop at ISTA, PCBWay, and PragoBoard for helping us with fabrication and assembly. This project was supported by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (Grant Agreement No. 715767 -– MATERIALIZABLE).
+
+<img src="/assets/img/flag_eu.jpg" alt="EU flag" height="100"/>
+<img src="/assets/img/logo_erc.jpg" alt="ERC logo" height="100"/>
+
 
 # Resources
-- [Article]({{ site.baseurl }}{% link /assets/pdf/pcbend/article.pdf %})
-- [Video](https://youtu.be/g8UX-KifGmM)
-- [Code and data](https://github.com/mfremer/pcbend)
+- [Article](https://manas-avi.github.io/publications/2023/PCBend/FoldableElectronics-2023-camera-ready.pdf)
+- [Video](https://youtu.be/nJspqdpyWq4)
+- [Code and data](https://github.com/mfremer/pcbend): coming soon!

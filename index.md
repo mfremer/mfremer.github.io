@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+I am a 3rd year PhD student in the MFX team at Loria, under the supervision of Sylvain Lefebvre. I work on **Layout problems and generative design for shape modeling**.
