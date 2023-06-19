@@ -26,11 +26,11 @@ Our technique generates PCB blueprints in a completely automated way. After bein
 # Citation
 
     @article{freire:hal-04129354,
-      TITLE = {{PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards}},
+      TITLE = {PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards},
       AUTHOR = {Freire, Marco and Bhargava, Manas and Schreck, Camille and Hugron, Pierre-Alexandre and Bickel, Bernd and Lefebvre, Sylvain},
       URL = {https://inria.hal.science/hal-04129354},
-      JOURNAL = {{ACM Transactions on Graphics}},
-      PUBLISHER = {{Association for Computing Machinery}},
+      JOURNAL = {ACM Transactions on Graphics},
+      PUBLISHER = {Association for Computing Machinery},
       YEAR = {2023},
       DOI = {10.1145/3592411},
       KEYWORDS = {PCB design ; PCB bending ; automated placement and routing ; 3D electronics},
