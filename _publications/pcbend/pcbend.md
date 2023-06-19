@@ -24,19 +24,20 @@ Our approach optimizes the PCB geometry for folding, and then jointly optimizes 
 Our technique generates PCB blueprints in a completely automated way. After being fabricated by a PCB manufacturing service, the boards are bent and glued by the user onto the 3D printed support. We demonstrate our technique on a range of physical models and virtual examples, creating intricate surface light patterns from hundreds of LEDs.
 
 # Citation
-  @article{freire:hal-04129354,
-    TITLE = {{PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards}},
-    AUTHOR = {Freire, Marco and Bhargava, Manas and Schreck, Camille and Hugron, Pierre-Alexandre and Bickel, Bernd and Lefebvre, Sylvain},
-    URL = {https://inria.hal.science/hal-04129354},
-    JOURNAL = {{ACM Transactions on Graphics}},
-    PUBLISHER = {{Association for Computing Machinery}},
-    YEAR = {2023},
-    DOI = {10.1145/3592411},
-    KEYWORDS = {PCB design ; PCB bending ; automated placement and routing ; 3D electronics},
-    PDF = {https://inria.hal.science/hal-04129354/file/main.pdf},
-    HAL_ID = {hal-04129354},
-    HAL_VERSION = {v1},
-  }
+
+    @article{freire:hal-04129354,
+      TITLE = {{PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards}},
+      AUTHOR = {Freire, Marco and Bhargava, Manas and Schreck, Camille and Hugron, Pierre-Alexandre and Bickel, Bernd and Lefebvre, Sylvain},
+      URL = {https://inria.hal.science/hal-04129354},
+      JOURNAL = {{ACM Transactions on Graphics}},
+      PUBLISHER = {{Association for Computing Machinery}},
+      YEAR = {2023},
+      DOI = {10.1145/3592411},
+      KEYWORDS = {PCB design ; PCB bending ; automated placement and routing ; 3D electronics},
+      PDF = {https://inria.hal.science/hal-04129354/file/main.pdf},
+      HAL_ID = {hal-04129354},
+      HAL_VERSION = {v1},
+    }
 
 # Acknowledgements
 We thank the reviewers for the valuable feedback. We also thank the Miba Machine Shop at ISTA, PCBWay, and PragoBoard for helping us with fabrication and assembly. This project was supported by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (Grant Agreement No. 715767 -– MATERIALIZABLE).
