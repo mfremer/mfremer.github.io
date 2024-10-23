@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Research
 ---
 
 {% for publication in site.publications %}
