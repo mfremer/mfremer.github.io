@@ -5,6 +5,7 @@ author: "M. Freire*, M. Bhargava*, C. Schreck, P.-A. Hugron, B. Bickel, S. Lefeb
 conference: "SIGGRAPH 2023"
 teaser: "/assets/img/pcbend/teaser.png"
 image: "/assets/img/pcbend/reprimg.jpg"
+lang: en
 ---
 
 **Marco Freire**\*<sup>1</sup>, **Manas Bhargava**\*<sup>2</sup>, Camille Schreck<sup>1</sup>, Pierre-Alexandre Hugron<sup>1</sup>, Bernd Bickel<sup>2</sup>, Sylvain Lefebvre<sup>1</sup>  

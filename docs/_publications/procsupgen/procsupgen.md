@@ -5,6 +5,7 @@ author: "M. Freire, S. Hornus, S. Perchy, S. Lefebvre"
 conference: "Eurographics 2022 (Short papers)"
 teaser: "/assets/img/procsupgen/teaser.png"
 image: "/assets/img/procsupgen/teaser.png"
+lang: en
 ---
 
 **Marco Freire**, Samuel Hornus, Salim Perchy, Sylvain Lefebvre

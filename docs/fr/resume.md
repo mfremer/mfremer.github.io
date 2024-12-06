@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
-permalink: /resume/
+permalink: /resume
 lang: fr
 ---
 

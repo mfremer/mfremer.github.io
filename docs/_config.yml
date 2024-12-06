@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Marco Freire
-email: marco.freire@univ-lorraine.fr
+author:
+  name: Marco Freire
+  email: marco.freire@univ-lorraine.fr
 description: #>-
-  Marco Freire, LORIA (MFX team)
+  MFX team at LORIA, Nancy (France)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mfremer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username: mfremer
 
 # Build settings
 # theme: minima
@@ -34,28 +34,35 @@ plugins:
   - jekyll-remote-theme
   - jekyll-polyglot
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@6b9b78d
 minima:
   skin: auto
+  social_links:
+  - { platform: rss, user_url: "/feed.xml" }
+  - { platform: github, user_url: "https://github.com/mfremer" }
 
 # Polyglot settings
 languages: ["en", "fr"]
 default_lang: "en"
 exclude_from_localization: ["assets", "javascript", "images", "css", "public"]
 parallel_localization: true
+# lang_from_path: true
 
 header_pages:
   en:
-    - publications-en.md
-    - resume-en.md
+    - en/publications.md
+    - en/resume.md
   fr:
-    - publications-fr.md
-    - resume-fr.md
+    - fr/publications.md
+    - fr/resume.md
+
+include:
+  - _publications
 
 collections:
   publications:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
