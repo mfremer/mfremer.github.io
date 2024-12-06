@@ -56,9 +56,6 @@ header_pages:
     - fr/publications.md
     - fr/resume.md
 
-include:
-  - _publications
-
 collections:
   publications:
     output: true
