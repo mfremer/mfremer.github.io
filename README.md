@@ -1,20 +1,22 @@
 # mfremer.github.io
-Personal website, build locally and pushed to github. Workflow is detailed in [here](https://www.rueth.info/multilingual-github-pages/prerequisites/).
+Personal website, build locally and pushed to github. Workflow is detailed in [here](https://www.rueth.info/multilingual-github-pages/prerequisites/). For more info about `git worktree` see [here](https://stackoverflow.com/questions/45491328/git-add-a-worktree-from-existing-remote-branch)
 
 ## How to setup locally
 ```bash
 # Clone repository
 git clone git@github.com:mfremer/mfremer.github.io
-cd mfremer.github.io/docs
-# Clone current site from live branch
-git clone -b site --single-branch git@github.com:mfremer/mfremer.github.io _site
+git worktree list
+git worktree add docs/_site site
+cd docs
 bundle install
 ```
 
 ## Deploying the site
 ```bash
-chmod u+x deploy.sh # if necessary
-./deploy.sh
+cd docs
+bundle exec jekyll build
+cd _site
+git add/commit/push
 ```
 
 ## Building/serving site locally
