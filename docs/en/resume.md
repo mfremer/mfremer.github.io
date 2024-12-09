@@ -5,4 +5,4 @@ permalink: /resume
 lang: en
 ---
 
-My curriculum vitae (in french) is available [here](/assets/FREIRE_Marco_resume_fr.pdf).
+My curriculum vitae is available [here](/assets/myresume_en.pdf).
