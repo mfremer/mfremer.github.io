@@ -50,10 +50,14 @@ parallel_localization: true
 
 header_pages:
   en:
+    - en/research.md
     - en/publications.md
+    - en/teaching.md
     - en/resume.md
   fr:
+    - fr/research.md
     - fr/publications.md
+    - fr/teaching.md
     - fr/resume.md
 
 collections:
