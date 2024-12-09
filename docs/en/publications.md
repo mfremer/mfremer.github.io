@@ -5,7 +5,7 @@ permalink: /publications/
 lang: en
 ---
 
-{% for publication in site.publications %}
+{% for publication in site.publications reversed %}
   <h3>{{ publication.title }}</h3>
   <p>{{ publication.author }}</p>
   <p>{{ publication.conference }}</p>

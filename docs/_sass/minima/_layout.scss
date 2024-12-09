@@ -255,7 +255,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h1, h2, h3 { margin-top: $spacing-unit * 2 }
+  h1, h2, h3 { margin-top: $spacing-unit }
   h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
@@ -340,3 +340,16 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+// https://stackoverflow.com/questions/9602936/how-to-create-a-table-of-contents-to-jekyll-blog-post
+// Adding 'Contents' headline to the TOC
+// #markdown-toc::before {
+//   content: "ToC";
+//   font-weight: bold;
+// }
+// #markdown-toc {
+//   border: 1px solid #aaa;
+//   padding: 0.5em 1.5em;
+//   list-style: decimal;
+//   display: inline-block;
+// }

@@ -4,6 +4,11 @@ title: Teaching
 permalink: /teaching
 lang: en
 ---
+
+* TOC
+{:toc}
+---
+
 See the [Glossary](#glossary) for explanations on what CM, TD, TP means.
 
 ## Non-tenured teaching and research fellow

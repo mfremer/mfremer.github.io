@@ -5,7 +5,11 @@ permalink: /teaching
 lang: fr
 ---
 
-## Attaché Temporaire d'Enseignement et de Recherche
+* TOC
+{:toc}
+---
+
+## Attaché temporaire d'enseignement et de recherche
 ### 2023 - 2024
 À la [Faculté des Sciences et Technologies](https://fst.univ-lorraine.fr/), Université de Lorraine
 - **Outils et culture numériques**:
@@ -20,7 +24,7 @@ lang: fr
 
 L'enseignement intégré (EI) est une forme pédagogique utilisée à l'Université de Lorraine qui combine CM et TD. Une heure d'EI est équivalente à 7/6 HETD.
 
-## Doctorant Contractuel Chargé d'Enseignement
+## Doctorant contractuel chargé d'enseignement
 ### 2022 - 2023
 À l'[École Nationale Supérieure des Mines de Nancy](https://mines-nancy.univ-lorraine.fr/)
 - **Programmation et structures de données**:
