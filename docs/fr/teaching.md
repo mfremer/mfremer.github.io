@@ -9,6 +9,9 @@ lang: fr
 {:toc}
 ---
 
+## Label Enseignement Supérieur
+En 2024, l'Université de Lorraine m'a décerné le [*Label Enseignement Supérieur*](http://doctorat.univ-lorraine.fr/sites/default/files/user/etre-doctorant/formations/labelenssup.pdf), ayant pour but de reconnaître officiellement une implication du doctorant vers la voie de l'enseignement supérieur, par des formations à suivre et par la pratique de l'enseignement. Les slides que j'ai utilisées pour ma présentation sont [ici](/assets/presentation/slides_label-es.pdf).
+
 ## Attaché temporaire d'enseignement et de recherche
 ### 2023 - 2024
 À la [Faculté des Sciences et Technologies](https://fst.univ-lorraine.fr/), Université de Lorraine
