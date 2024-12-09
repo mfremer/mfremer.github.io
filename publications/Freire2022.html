@@ -10,33 +10,33 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="Marco Freire, Samuel Hornus, Salim Perchy, Sylvain Lefebvre" />
 <meta property="og:description" content="Marco Freire, Samuel Hornus, Salim Perchy, Sylvain Lefebvre" />
-<link rel="canonical" href="https://mfremer.github.io/publications/procsupgen" />
-<meta property="og:url" content="https://mfremer.github.io/publications/procsupgen" />
+<link rel="canonical" href="https://mfremer.github.io/publications/Freire2022" />
+<meta property="og:url" content="https://mfremer.github.io/publications/Freire2022" />
 <meta property="og:site_name" content="Marco Freire" />
-<meta property="og:image" content="https://mfremer.github.io/assets/img/procsupgen/teaser.png" />
+<meta property="og:image" content="https://mfremer.github.io/assets/publications/Freire2022/teaser.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-12-06T23:22:51+01:00" />
+<meta property="article:published_time" content="2024-12-09T12:49:31+01:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://mfremer.github.io/assets/img/procsupgen/teaser.png" />
+<meta property="twitter:image" content="https://mfremer.github.io/assets/publications/Freire2022/teaser.png" />
 <meta property="twitter:title" content="Procedural bridges-and-pillars support generation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"M. Freire, S. Hornus, S. Perchy, S. Lefebvre"},"dateModified":"2024-12-06T23:22:51+01:00","datePublished":"2024-12-06T23:22:51+01:00","description":"Marco Freire, Samuel Hornus, Salim Perchy, Sylvain Lefebvre","headline":"Procedural bridges-and-pillars support generation","image":"https://mfremer.github.io/assets/img/procsupgen/teaser.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://mfremer.github.io/publications/procsupgen"},"url":"https://mfremer.github.io/publications/procsupgen"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"M. Freire, S. Hornus, S. Perchy, S. Lefebvre"},"dateModified":"2024-12-09T12:49:31+01:00","datePublished":"2024-12-09T12:49:31+01:00","description":"Marco Freire, Samuel Hornus, Salim Perchy, Sylvain Lefebvre","headline":"Procedural bridges-and-pillars support generation","image":"https://mfremer.github.io/assets/publications/Freire2022/teaser.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://mfremer.github.io/publications/Freire2022"},"url":"https://mfremer.github.io/publications/Freire2022"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mfremer.github.io/fr/feed.xml" title="Marco Freire" />
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mfremer.github.io/feed.xml" title="Marco Freire" />
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/fr/">Marco Freire</a><br>
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Marco Freire</a><br>
 
     
     <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
     
       
-      <a  href="/publications/procsupgen" >en</a>
+      <a style="font-weight: bold;" href="/publications/Freire2022" >en</a>
       
     
       |
-      <a style="font-weight: bold;" href="/fr/publications/procsupgen" >fr</a>
+      <a  href="/fr/publications/Freire2022" >fr</a>
       
     <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -48,7 +48,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/fr/resume">Curriculum Vitae</a></div>
+        <div class="trigger"><a class="page-link" href="/research">Research</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/teaching">Teaching</a><a class="page-link" href="/resume">Curriculum Vitae</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -66,7 +66,7 @@
 
 <p><a href="https://eg2022.univ-reims.fr/">Eurographics 2022 (Short papers)</a></p>
 
-<p><img src="/assets/img/procsupgen/teaser.png" alt="Teaser image" /></p>
+<p><img src="/assets/procsupgen/teaser.png" alt="Teaser image" /></p>
 
 <h1 id="abstract">Abstract</h1>
 <p>Additive manufacturing requires support structures to fabricate parts with overhangs. In this paper, we revisit a known support structure based on bridges-and-pillars (see Figure 1). The support structures are made of vertical pillars supporting horizontal bridges. Their scaffolding structure makes them stable and reliable to print. However, the algorithm heuristic search does not scale well and is prone to produce contacts with the parts, leaving scars after removal.</p>
@@ -74,20 +74,19 @@
 <p>We propose a novel algorithm for this type of supports, focusing on avoiding unnecessary contacts with the part as much as possible. Our approach builds upon example-based model synthesis to enable early detection of collision-free passages as well as non-reachable regions.</p>
 
 <h1 id="citation">Citation</h1>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{freire:hal-03700018,
-  TITLE = {Procedural bridges-and-pillars support generation},
-  AUTHOR = {Freire, Marco and Hornus, Samuel and Perchy, Salim and Lefebvre, Sylvain},
-  URL = {https://inria.hal.science/hal-03700018},
-  BOOKTITLE = {Eurographics 2022 - 43rd annual conference of the european association for computer graphics},
-  ADDRESS = {Reims, France},
-  YEAR = {2022},
-  MONTH = Apr,
-  KEYWORDS = {Applied computing ; Computer-aided design ; Computing methodologies ; Shape modeling},
-  PDF = {https://inria.hal.science/hal-03700018/file/short1026_CRC_HAL.pdf},
-  HAL_ID = {hal-03700018},
-  HAL_VERSION = {v1},
-}
-</code></pre></div></div>
+<p>@inproceedings{freire:hal-03700018,
+    TITLE = {Procedural bridges-and-pillars support generation},
+    AUTHOR = {Freire, Marco and Hornus, Samuel and Perchy, Salim and Lefebvre, Sylvain},
+    URL = {https://inria.hal.science/hal-03700018},
+    BOOKTITLE = {Eurographics 2022 - 43rd annual conference of the european association for computer graphics},
+    ADDRESS = {Reims, France},
+    YEAR = {2022},
+    MONTH = Apr,
+    KEYWORDS = {Applied computing ; Computer-aided design ; Computing methodologies ; Shape modeling},
+    PDF = {https://inria.hal.science/hal-03700018/file/short1026_CRC_HAL.pdf},
+    HAL_ID = {hal-03700018},
+    HAL_VERSION = {v1},
+  }</p>
 
 <h1 id="resources">Resources</h1>
 <ul>
@@ -101,14 +100,14 @@
 
       </div>
     </main><footer class="site-footer h-card">
-  <data class="u-url" href="/fr/"></data>
+  <data class="u-url" href="/"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <!-- <p class="feed-subscribe">
-          <a href="https://mfremer.github.io/fr/feed.xml">
+          <a href="https://mfremer.github.io/feed.xml">
             <svg class="svg-icon orange">
               <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
             </svg><span>Subscribe</span>
@@ -125,7 +124,7 @@
     </div>
 
     <div class="social-links"><ul class="social-media-list"><li>
-  <a href="/fr/feed.xml" target="_blank" title="rss">
+  <a href="/feed.xml" target="_blank" title="rss">
     <svg class="svg-icon grey">
       <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
     </svg>
