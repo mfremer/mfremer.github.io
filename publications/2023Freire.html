@@ -15,12 +15,12 @@
 <meta property="og:site_name" content="Marco Freire" />
 <meta property="og:image" content="https://mfremer.github.io/assets/publications/2023Freire/reprimg.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-01-07T11:31:03+01:00" />
+<meta property="article:published_time" content="2025-01-13T14:43:35+01:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="https://mfremer.github.io/assets/publications/2023Freire/reprimg.jpg" />
 <meta property="twitter:title" content="PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"M. Freire*, M. Bhargava*, C. Schreck, P.-A. Hugron, B. Bickel, S. Lefebvre (*Joint first authors)"},"dateModified":"2025-01-07T11:31:03+01:00","datePublished":"2025-01-07T11:31:03+01:00","description":"Marco Freire*1, Manas Bhargava*2, Camille Schreck1, Pierre-Alexandre Hugron1, Bernd Bickel2, Sylvain Lefebvre1 *Joint first authors 1Université de Lorraine, CNRS, Inria, LORIA, France 2ISTA (Institute of Science and Technology Austria), Austria","headline":"PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards","image":"https://mfremer.github.io/assets/publications/2023Freire/reprimg.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://mfremer.github.io/publications/2023Freire"},"url":"https://mfremer.github.io/publications/2023Freire"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"M. Freire*, M. Bhargava*, C. Schreck, P.-A. Hugron, B. Bickel, S. Lefebvre (*Joint first authors)"},"dateModified":"2025-01-13T14:43:35+01:00","datePublished":"2025-01-13T14:43:35+01:00","description":"Marco Freire*1, Manas Bhargava*2, Camille Schreck1, Pierre-Alexandre Hugron1, Bernd Bickel2, Sylvain Lefebvre1 *Joint first authors 1Université de Lorraine, CNRS, Inria, LORIA, France 2ISTA (Institute of Science and Technology Austria), Austria","headline":"PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards","image":"https://mfremer.github.io/assets/publications/2023Freire/reprimg.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://mfremer.github.io/publications/2023Freire"},"url":"https://mfremer.github.io/publications/2023Freire"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://mfremer.github.io/feed.xml" title="Marco Freire" />
 <meta http-equiv="Content-Language" content="en">
@@ -52,7 +52,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/research">Research</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/teaching">Teaching</a><a class="page-link" href="/resume">Curriculum Vitae</a></div>
+        <div class="trigger"><a class="page-link" href="/research">Research</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/teaching">Teaching</a><a class="page-link" href="/software">Software</a><a class="page-link" href="/resume">Curriculum Vitae</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -73,14 +73,14 @@
 
 <p><img src="/assets/publications/2023Freire/teaser.png" alt="Teaser image" /></p>
 
-<h1 id="abstract">Abstract</h1>
+<h2 id="abstract">Abstract</h2>
 <p>We propose a computational design approach for covering a surface with individually addressable RGB LEDs, effectively forming a low-resolution surface screen. To achieve a low-cost and scalable approach, we propose creating designs from flat PCB panels bent in-place along the surface of a 3D printed core. Working with standard rigid PCBs enables the use of established PCB manufacturing services, allowing the fabrication of designs with several hundred LEDs.</p>
 
 <p>Our approach optimizes the PCB geometry for folding, and then jointly optimizes the LED packing, circuit and routing, solving a challenging layout problem under strict manufacturing requirements. Unlike paper, PCBs cannot bend beyond a certain point without breaking. Therefore, we introduce parametric cut patterns acting as hinges, designed to allow bending while remaining compact. To tackle the joint optimization of placement, circuit and routing, we propose a specialized algorithm that splits the global problem into one sub-problem per triangle, which is then individually solved.</p>
 
 <p>Our technique generates PCB blueprints in a completely automated way. After being fabricated by a PCB manufacturing service, the boards are bent and glued by the user onto the 3D printed support. We demonstrate our technique on a range of physical models and virtual examples, creating intricate surface light patterns from hundreds of LEDs.</p>
 
-<h1 id="citation">Citation</h1>
+<h2 id="citation">Citation</h2>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@article{2023Freire,
     TITLE = {PCBend: Light Up Your 3D Shapes With Foldable Circuit Boards},
     AUTHOR = {Freire, Marco and Bhargava, Manas and Schreck, Camille and Hugron, Pierre-Alexandre and Bickel, Bernd and Lefebvre, Sylvain},
@@ -96,13 +96,13 @@
 }
 </code></pre></div></div>
 
-<h1 id="acknowledgements">Acknowledgements</h1>
+<h2 id="acknowledgements">Acknowledgements</h2>
 <p>We thank the reviewers for the valuable feedback. We also thank the Miba Machine Shop at ISTA, PCBWay, and PragoBoard for helping us with fabrication and assembly. This project was supported by the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (Grant Agreement No. 715767 -– MATERIALIZABLE).</p>
 
-<p><img src="/assets/flag_eu.jpg" alt="EU flag" height="100" />
-<img src="/assets/logo_erc.jpg" alt="ERC logo" height="100" /></p>
+<p><img src="/assets/publications/2023Freire/flag_eu.jpg" alt="EU flag" height="100" />
+<img src="/assets/publications/2023Freire/logo_erc.jpg" alt="ERC logo" height="100" /></p>
 
-<h1 id="resources">Resources</h1>
+<h2 id="resources">Resources</h2>
 <ul>
   <li><a href="https://inria.hal.science/hal-04129354v1/document">Article</a></li>
   <li><a href="https://youtu.be/nJspqdpyWq4">Video</a></li>
