@@ -67,12 +67,13 @@ case $yn in
 esac
 
 # Add, commit and push
-git add .
+git add -A
 git commit -m "$commit_message"
 git push
 
 # Build the site
 JEKYLL_ENV=$jekyll_environment bundle exec jekyll clean
+git worktree add ./_site site
 JEKYLL_ENV=$jekyll_environment bundle exec jekyll build
 
 # Change to the _site folder
