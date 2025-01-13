@@ -67,7 +67,7 @@ case $yn in
 esac
 
 # Add, commit and push
-git add -A
+git add .
 git commit -m "$commit_message"
 git push
 
