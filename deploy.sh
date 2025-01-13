@@ -19,7 +19,7 @@ all_is_fine=true
 # Check 1: You have to run this script from the directory it resides in
 if ! [[ -f ./deploy.sh ]]
 then
-	echo "Check 2 Error: You need to run this script from the directory deploy.sh resides in"
+	echo "Check 1 Error: You need to run this script from the directory deploy.sh resides in"
 	all_is_fine=false
 else
 	echo "Check 1 OK - running in the right directory"
