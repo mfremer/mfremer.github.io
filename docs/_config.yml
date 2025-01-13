@@ -53,12 +53,14 @@ header_pages:
     - en/research.md
     - en/publications.md
     - en/teaching.md
+    - en/software.md
     - en/resume.md
   fr:
     - fr/research.md
     - fr/publications.md
     - fr/teaching.md
     - fr/for-students.md
+    - fr/software.md
     - fr/resume.md
 
 collections:

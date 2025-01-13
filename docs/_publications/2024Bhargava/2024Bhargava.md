@@ -18,10 +18,10 @@ M. Bhargava<sup>1</sup>, C. Schreck<sup>2</sup>, **M. Freire**<sup>2</sup>, P.-A
 
 ![Teaser image](/assets/publications/2024Bhargava/teaser.png)
 
-# Abstract
+## Abstract
 We present a computational approach for unfolding 3D shapes isometrically into the plane as a single patch without overlapping triangles. This is a hard, sometimes impossible, problem, which existing methods are forced to soften by allowing for map distortions or multiple patches. Instead, we propose a geometric relaxation of the problem: We modify the input shape until it admits an overlap-free unfolding. We achieve this by locally displacing vertices and collapsing edges, guided by the unfolding process. We validate our algorithm quantitatively and qualitatively on a large dataset of complex shapes and show its proficiency by fabricating real shapes from paper.
 
-# Citation
+## Citation
     @article{2024Bhargava,
         author = {Bhargava, M. and Schreck, C. and Freire, M. and Hugron, P. A. and Lefebvre, S. and Sellán, S. and Bickel, B.},
         title = {Mesh Simplification for Unfolding},
@@ -35,5 +35,5 @@ We present a computational approach for unfolding 3D shapes isometrically into t
         eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15269},
     }
 
-# Resources
+## Resources
 - [Article](https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15269)
