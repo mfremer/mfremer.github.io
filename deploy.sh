@@ -49,6 +49,13 @@ then
 fi
 echo "Using commit message: '$commit_message'"
 
+# Change to the source directory
+if ! [ -z "$source_directory" ]
+then
+	cd "$source_directory"
+	echo "Changed to $(pwd)"
+fi
+
 # Get JEKYLL_ENV
 jekyll_environment="development"
 read -p "Do you want to build in production environment (default: no)? (y/n) " yn
@@ -63,13 +70,6 @@ esac
 git add -A
 git commit -m "$commit_message"
 git push
-
-# Change to the source directory
-if ! [ -z "$source_directory" ]
-then
-	cd "$source_directory"
-	echo "Changed to $(pwd)"
-fi
 
 # Build the site
 JEKYLL_ENV=$jekyll_environment bundle exec jekyll clean
