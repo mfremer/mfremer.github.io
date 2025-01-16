@@ -13,8 +13,9 @@ lang: fr
 En 2024, l'Université de Lorraine m'a décerné le [*Label Enseignement Supérieur*](http://doctorat.univ-lorraine.fr/sites/default/files/user/etre-doctorant/formations/labelenssup.pdf), ayant pour but de reconnaître officiellement une implication du doctorant vers la voie de l'enseignement supérieur, par des formations à suivre et par la pratique de l'enseignement. Les slides que j'ai utilisées pour ma présentation sont [ici](/assets/presentation/slides_label-es.pdf).
 
 ## Attaché temporaire d'enseignement et de recherche
-### 2023 - 2024
+### 2024 - 2025
 À la [Faculté des Sciences et Technologies](https://fst.univ-lorraine.fr/), Université de Lorraine
+#### Semestre 1
 - **Outils et culture numériques**:
     + L1 Sciences de la Vie: 10h TP
     + L1 Sciences pour l'Ingénieur: 8h TP
@@ -24,6 +25,16 @@ En 2024, l'Université de Lorraine m'a décerné le [*Label Enseignement Supéri
     + L2 Informatique: 44h TP + 4h EI
 - **Optimisation combinatoire**:
     + M1 Informatique: 8h TP
+
+#### Semestre 2 (prévisionnel)
+- **Interfaces Graphiques**:
+    + L2 Informatique: TP
+- **Projet de synthèse**:
+    + L1 Informatique: TP/EI
+- **Gestion de la mémoire**:
+    + L1 Informatique: TP
+- **Introduction aux mathématiques discrètes**:
+    + L1 Informatique: CM + TD
 
 L'enseignement intégré (EI) est une forme pédagogique utilisée à l'Université de Lorraine qui combine CM et TD. Une heure d'EI est équivalente à 7/6 HETD.
 

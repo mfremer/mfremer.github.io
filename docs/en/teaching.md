@@ -15,8 +15,9 @@ See the [Glossary](#glossary) for explanations on what CM, TD, TP means.
 In 2024, the Université de Lorraine awarded me the [Higher Education Label](http://doctorat.univ-lorraine.fr/sites/default/files/user/etre-doctorant/formations/labelenssup.pdf) (in french), aimed at officially recognizing a doctoral student's involvement in the path of higher education, through required training and teaching practice. You can find the slides I used for my presentation [here](/assets/presentation/slides_label-es.pdf) (notes in french).
 
 ## Non-tenured teaching and research fellow
-### 2023 - 2024
+### 2024 - 2025
 At [Faculté des Sciences et Technologies](https://fst.univ-lorraine.fr/), Université de Lorraine
+#### Semester 1
 - **Digital tools and culture**:
     + L1 Bioscience: 10h TP
     + L1 Science for Engineering: 8h TP
@@ -26,6 +27,16 @@ At [Faculté des Sciences et Technologies](https://fst.univ-lorraine.fr/), Unive
     + L2 Computer Science: 44h TP + 4h EI
 - **Combinatorial optimization**:
     + M1 Computer Science: 8h TP
+
+#### Semester 2 (projected)
+- **Graphical Interfaces**:
+    + L2 Computer Science: TP
+- **Programming projects**:
+    + L1 Computer Science: TP/EI
+- **Memory management**:
+    + L1 Computer Science: TP
+- **Introduction to discrete mathematics**:
+    + L1 Computer Science: CM + TD
 
 ## Teaching assistant as a doctoral student
 ### 2022 - 2023
