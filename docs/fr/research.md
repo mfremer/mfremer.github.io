@@ -10,7 +10,7 @@ lang: fr
 ---
 
 ## Attaché temporaire de recherche et d'enseignement (ATER)
-Je travaille actuellement sur le placement parallèle sur GPU de *Field-Programmable Gate Arrays* (FPGA), en continuité mon travail sur les problèmes d'agencement réalisé pendant ma thèse.
+Je travaille actuellement sur le placement parallèle sur GPU de *Field-Programmable Gate Arrays* (FPGA), en continuité de mon travail sur les problèmes d'agencement réalisé pendant ma thèse.
 
 Je continue aussi de travailler sur les problématiques de dépliage de maillages, suite à mes [travaux précédents](/publications/2024Bhargava) sur le sujet.
 

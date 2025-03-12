@@ -8,7 +8,7 @@ image:  "/assets/publications/2024Bhargava/teaser.jpg"
 permalink: /publications/2024Bhargava
 ---
 
-M. Bhargava<sup>1</sup>, C. Schreck<sup>2</sup>, **M. Freire**<sup>2</sup>, P.-A. Hugron<sup>2</sup>, S. Lefebvre<sup>2</sup>, S. Sellán\*<sup>3</sup>, B. Bickel\*<sup>1</sup>
+M. Bhargava<sup>1</sup>, C. Schreck<sup>2</sup>, **M. Freire**<sup>2</sup>, P.-A. Hugron<sup>2</sup>, S. Lefebvre<sup>2</sup>, S. Sellán\*<sup>3</sup>, B. Bickel\*<sup>1</sup>  
 \*Contributed equally  
 <sup>1</sup>ISTA (Institute of Science and Technology Austria), Austria  
 <sup>2</sup>Université de Lorraine, CNRS, Inria, LORIA, France  

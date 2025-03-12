@@ -12,11 +12,19 @@ bundle install
 ```
 
 ## Deploying the site
+### Manually
 ```bash
 cd docs
 bundle exec jekyll build
 cd _site
 git add/commit/push
+```
+### Automatically
+```bash
+cd docs
+rm -r _site
+cd ..
+./deploy.sh
 ```
 
 ## Building/serving site locally
