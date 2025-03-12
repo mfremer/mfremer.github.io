@@ -9,6 +9,11 @@ lang: en
 {:toc}
 ---
 
+## Non-tenured research and teaching fellow
+I am currently working on parallel, GPU-based placement algorithms for *Field-Programmable Gate Array* (FPGA), continuing the work on layout problems that I started during my PhD.
+
+I am also still working on mesh unfolding techniques, continuing my [previous work](/publications/2024Bhargava) on the subject.
+
 ## PhD thesis
 ### Information
 - Title:    *Layout problems under topological constriants for computational fabrication*
