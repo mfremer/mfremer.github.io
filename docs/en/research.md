@@ -36,7 +36,7 @@ See the pages about [support generation](/publications/2022Freire), [foldable ci
 - Supervisor: *Nicolas Holzschuch*
 - Dates:      *2020-02 to 2020-06*
 - At:         *MAVERICK team, Inria Rhône-Alpes, France*
-- Document:   [link](assets/internships/m2_report.pdf)
+- Document:   [link](/assets/internships/m2_report.pdf)
 
 This master's project was developed further by Ana Granizo-Hidalgo and Nicolas Holzschuch, resulting in a [publication](https://theses.hal.science/INRIA2/hal-04561024v1) accompanied by a full implementation of the method using a better method for root-finding.
 
@@ -60,6 +60,6 @@ This project resulted in a [publication](https://univ-rennes.hal.science/hal-023
 - Supervisor: *Antoine Costes, Ferran Argelaguet and Anatole Lécuyer*
 - Dates:      *2018-05 to 2018-08*
 - At:         *HYBRID team, Inria Rennes, France*
-- Document:   [link](assets/internships/l3_report.pdf)
+- Document:   [link](/assets/internships/l3_report.pdf)
 
 Contributed to Antoine Costes' PhD [thesis](https://theses.fr/api/v1/document/2018ISAR0032) (section 5.3), in particular the design and implementation of the *Encase* effect on 3D scenes.

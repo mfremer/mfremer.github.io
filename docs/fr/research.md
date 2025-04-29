@@ -36,7 +36,7 @@ Voir les pages associées aux projets: [génération de supports](/publications/
 - Encadrant: *Nicolas Holzschuch*
 - Dates:     *2020-02 à 2020-06*
 - Lieu:      *Équipe MAVERICK, Inria Rhône-Alpes, France*
-- Document:  [lien](assets/internships/m2_report.pdf)
+- Document:  [lien](/assets/internships/m2_report.pdf)
 
 Ce projet de stage a été poursuivi par Ana Granizo Hidalgo et Nicolas Holzschuch, résultant en une [publication](https://theses.hal.science/INRIA2/hal-04561024v1) accompagnée d'une implémentation complète de la méthode qui utilise une meilleure méthode de recherche de racines.
 
@@ -60,6 +60,6 @@ Ce projet a résulté en une [publication](https://univ-rennes.hal.science/hal-0
 - Encadrant: *Antoine Costes, Ferran Argelaguet and Anatole Lécuyer*
 - Dates:     *2018-05 à 2018-08*
 - Lieu:      *Équipe HYBRID, Inria Rennes, France*
-- Document:  [lien](assets/internships/l3_report.pdf)
+- Document:  [lien](/assets/internships/l3_report.pdf)
 
 J'ai contribué à la [thèse](https://theses.fr/api/v1/document/2018ISAR0032) d'Antoine Costes (section 5.3), en particulier à la conception et l'implémentation de l'effet *Encase* sur des scènes 3D.
