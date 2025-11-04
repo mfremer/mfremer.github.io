@@ -21,9 +21,9 @@
 title: Marco Freire
 author:
   name: Marco Freire
-  email: marco.freire@univ-lorraine.fr
+  email: marco.freire@inria.fr
 description: #>-
-  MFX team at LORIA, Nancy (France)
+  Associate professor at Grenoble INP - Ensimag, LJK
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mfremer.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -59,7 +59,7 @@ header_pages:
     - fr/research.md
     - fr/publications.md
     - fr/teaching.md
-    - fr/for-students.md
+#    - fr/for-students.md
     - fr/software.md
     - fr/resume.md
 
