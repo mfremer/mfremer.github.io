@@ -17,9 +17,11 @@ bundle install
 cd docs
 bundle exec jekyll build
 cd _site
+touch .nojekyll
 git add/commit/push
 ```
 ### Automatically
+ATTENTION: does not work properly, I should fix it sometime...
 ```bash
 cd docs
 rm -r _site
